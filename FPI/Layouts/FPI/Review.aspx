@@ -36,7 +36,7 @@
   <br />
   <Sharepoint:SPGridView ID="SPGrid" runat="server" DataSourceID="CCHSql" DataKeyNames="id, balance"
             EnableModelValidation="True" AutoGenerateColumns="False" AllowFiltering="true" FilterDataFields="MANAGER" EnableViewState="false" FooterStyle-Font-Bold="true"
-            AllowPaging="True" PageSize="20" AllowSorting="True" AllowGrouping="false" UseAccessibleHeader="true" ShowFooter="false" Width="90%" BorderStyle="None" 
+            AllowPaging="True" PageSize="50" AllowSorting="True" AllowGrouping="false" UseAccessibleHeader="true" ShowFooter="false" Width="90%" BorderStyle="None" 
             CellPadding="1" CellSpacing="1" >
         <Columns>
             <asp:TemplateField HeaderText="Code" sortExpression="Clientcode">
